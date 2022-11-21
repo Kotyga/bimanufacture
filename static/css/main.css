@@ -1,0 +1,185 @@
+div#logo_block {
+    position: relative;
+    background-image: 'img/logo.png';
+    }
+    
+.main_text {
+    position: absolute;
+    bottom: 30%;
+    color: #ffffff;
+    width: 400px;
+    }
+.menu{
+    position: absolute;
+    top: 25px; 
+    right: -250px;
+    fill: white;
+    width: 400px;
+    }
+
+a.text_logo:active, /* активная/посещенная ссылка */
+a.text_logo:hover,  /* при наведении */
+a.text_logo {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.hello_text{
+    color: #8DAAAA;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.hello_img{
+    text-align: right;
+}
+
+div#img_hello {
+    position: relative;
+}
+.girl {
+    position: absolute;
+    top: 25px; 
+    right: 50px;
+    width: 500px;
+    }
+
+.green_gradient_back{
+    position: absolute;
+    top: 125px; 
+    right: 50px;
+    width: 500px;
+}
+
+div#rectangle{
+    position: relative;
+    border-radius: 15px;
+    top: 125px; 
+    right: 230px;
+    width: 500px;
+    border-color: #8DAAAA;
+    border-top-color:#8DAAAA; 
+    border-right-color:#8DAAAA; 
+    border-bottom-color:#8DAAAA; 
+    border-left-color:#8DAAAA;
+}
+
+.name{
+    position: absolute;
+    border-radius: 15px;
+    top: 15px; 
+    right: 30px;
+    border-color: #8DAAAA;
+    border-top-color:#8DAAAA; 
+    border-right-color:#8DAAAA; 
+    border-bottom-color:#8DAAAA; 
+    border-left-color:#8DAAAA;
+    height: 70px;
+}
+
+.lastname{
+    position: absolute;
+    border-radius: 15px;
+    top: 90px; 
+    right: 30px;
+    border-color: #8DAAAA;
+    border-top-color:#8DAAAA; 
+    border-right-color:#8DAAAA; 
+    border-bottom-color:#8DAAAA; 
+    border-left-color:#8DAAAA;
+    height: 70px;
+}
+
+.Town{
+    position: absolute;
+    border-radius: 15px;
+    border-top-color:#8DAAAA; 
+    border-right-color:#8DAAAA; 
+    border-bottom-color:#8DAAAA; 
+    border-left-color:#8DAAAA;
+    top: 165px; 
+    right: 30px;
+    border-color: #8DAAAA;
+    height: 70px;
+}
+
+.Company{
+    position: absolute;
+    border-radius: 15px;
+    top: 240px; 
+    right: 30px;
+    border-color: #8DAAAA;
+    border-top-color:#8DAAAA; 
+    border-right-color:#8DAAAA; 
+    border-bottom-color:#8DAAAA; 
+    border-left-color:#8DAAAA;
+    height: 70px;
+}
+
+.Phone_number{
+    position: absolute;
+    border-radius: 15px;
+    top: 315px; 
+    right: 30px;
+    border-color: #8DAAAA;
+    border-top-color:#8DAAAA; 
+    border-right-color:#8DAAAA; 
+    border-bottom-color:#8DAAAA; 
+    border-left-color:#8DAAAA;
+    height: 70px;
+}
+
+.Email{
+    position: absolute;
+    border-radius: 15px;
+    top: 390px; 
+    right: 30px;
+    border-color: #8DAAAA;
+    border-top-color:#8DAAAA; 
+    border-right-color:#8DAAAA; 
+    border-bottom-color:#8DAAAA; 
+    border-left-color:#8DAAAA;
+    height: 70px;
+}
+
+.submit_button{
+    position: absolute;
+    border-radius: 15px;
+    top: 465px; 
+    right: 30px;
+    border-color: #8DAAAA;
+    border-top-color:#8DAAAA; 
+    border-right-color:#8DAAAA; 
+    border-bottom-color:#8DAAAA; 
+    border-left-color:#8DAAAA;
+    height: 70px;
+    width: 485px;
+    color: #ffffff;
+    font-size:45px;
+}
+
+div#About{
+    position: relative;
+}
+
+.me{
+    position: absolute;
+    border-radius: 15px;
+    top: 10px; 
+    right: 30px;
+}
+
+.H_about{
+    position: absolute;
+    top: 10px; 
+    left: 470px;  
+}
+
+.Text{
+    position: absolute;
+    top: 10px; 
+    right: 470px;  
+}

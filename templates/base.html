@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <div id="logo_block">
+        <img src="{{ url_for('static', filename='img/logo.png') }}" height="130" class="logo">
+        <div class="main_text">
+            <a href="/home" class="text_logo"><h1>🔥BIManufactory</h1></a>
+        </div>
+        <div class="menu">
+            <a href="/about">
+                <svg width="93" height="75" viewBox="0 0 93 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 70.8333C0 69.7283 0.445373 68.6685 1.23814 67.887C2.03091 67.1056 3.10613 66.6667 4.22727 66.6667H88.7727C89.8939 66.6667 90.9691 67.1056 91.7619 67.887C92.5546 68.6685 93 69.7283 93 70.8333C93 71.9384 92.5546 72.9982 91.7619 73.7796C90.9691 74.561 89.8939 75 88.7727 75H4.22727C3.10613 75 2.03091 74.561 1.23814 73.7796C0.445373 72.9982 0 71.9384 0 70.8333ZM0 37.5C0 36.3949 0.445373 35.3351 1.23814 34.5537C2.03091 33.7723 3.10613 33.3333 4.22727 33.3333H88.7727C89.8939 33.3333 90.9691 33.7723 91.7619 34.5537C92.5546 35.3351 93 36.3949 93 37.5C93 38.6051 92.5546 39.6649 91.7619 40.4463C90.9691 41.2277 89.8939 41.6667 88.7727 41.6667H4.22727C3.10613 41.6667 2.03091 41.2277 1.23814 40.4463C0.445373 39.6649 0 38.6051 0 37.5ZM0 4.16667C0 3.0616 0.445373 2.00179 1.23814 1.22039C2.03091 0.438988 3.10613 0 4.22727 0H88.7727C89.8939 0 90.9691 0.438988 91.7619 1.22039C92.5546 2.00179 93 3.0616 93 4.16667C93 5.27174 92.5546 6.33154 91.7619 7.11294C90.9691 7.89435 89.8939 8.33333 88.7727 8.33333H4.22727C3.10613 8.33333 2.03091 7.89435 1.23814 7.11294C0.445373 6.33154 0 5.27174 0 4.16667V4.16667Z" fill="white"/>
+            </svg></a>   
+        </div>
+    </div>
+    <div class="hello_text">{% block hello_text %}{% endblock %}</div>
+    <div id="img_hello">{% block hello_img %}{% endblock %}  </div> 
+    <form>{% block form %}{% endblock %}</form>
+</body>
+</html>
